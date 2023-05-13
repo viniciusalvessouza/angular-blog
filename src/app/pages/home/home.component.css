@@ -1,0 +1,23 @@
+.articles_container{
+    margin-top:30px;
+
+    display: flex;
+    justify-content: center;
+
+    flex-direction: row;
+}
+
+/* .articles_others{
+    
+    display: flex;
+    flex-direction: column;
+    
+} */
+
+header{
+    margin-top:15px;
+
+    border:1px solid red;
+    display: flex;
+    justify-content: center;
+}

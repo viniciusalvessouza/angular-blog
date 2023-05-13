@@ -1,0 +1,10 @@
+/* ele usou display flex no ul e eu displpay inline no li */
+.menu_bar_container > ul >li{
+   display: inline;
+   /* flex-direction: row; */
+
+   list-style: none;
+
+   margin-right: 10px;
+}
+
