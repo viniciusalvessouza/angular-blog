@@ -5,23 +5,48 @@
 
 <div class="articles_container">
     <div class="articles_main">
-        <app-big-card></app-big-card>
+        <app-big-card
+        photoCover="https://thumbor.guiame.com.br/unsafe/840x500/smart/https://media.guiame.com.br/archives/2019/06/10/1447807278-banda-resgate.jpg"
+        cardTitle="BANDA RESGATE, ROCK CRISTÃO"
+        cardDescription="Conheça uma excelente banda no cenário musical do rock cristão, que dura a mais de 30 anos"
+        >
+        </app-big-card>
+
+        
     </div>
     
     <div class="articles_others">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
+        <app-small-card
+        [photoCover]="'https://folhagospel.com/wp-content/uploads/2017/08/banda_resgate_no_seu_quintal_capa_20171.jpg'"
+        [cardTitle]="'No seu quintal'"
+        ></app-small-card>
+        
+        <app-small-card
+                [photoCover]="'https://i.ytimg.com/vi/0WHjs-dnUjk/maxresdefault.jpg'"
+                [cardTitle]="'LP Novos rumos'"
+        ></app-small-card>
+        
+        <app-small-card
+                [photoCover]="'https://1.bp.blogspot.com/-NUa7T2f5158/VX9MShm--jI/AAAAAAAAAkU/LAAyBbhj1NY/s1600/11350534_1081378601876863_8097973548218481117_n.jpg'"
+                [cardTitle]="'25 anos de rock and roll'"
+        ></app-small-card>
+
+
     </div>
     
 </div>
 
-<h1>Novidades</h1>
+<h1>Mais velharias</h1>
 <hr>
 
 <div class="articles_container">
     <div class="articles_main">
-        <app-big-card></app-big-card>
+        <app-big-card
+        photoCover="http://i.ytimg.com/vi/t_5eat473sk/maxresdefault.jpg"
+        cardTitle="ENGENHEIROS DO HAWAII, ROCK GAUCH"
+        cardDescription="UM DOS DINOSSAUROS DO ROCK BRASILEIRO QUE VIVE NA CARREIRA DE HUMBERTO GESSINGER"
+        >
+        </app-big-card>
     </div>
     
     <div class="articles_others">
