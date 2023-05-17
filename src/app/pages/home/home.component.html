@@ -1,11 +1,9 @@
-<header>
-    <app-menu-bar></app-menu-bar>
-</header>
 <app-menu-title></app-menu-title>
 
 <div class="articles_container">
     <div class="articles_main">
         <app-big-card
+        id="Banda_Resgate"
         photoCover="https://thumbor.guiame.com.br/unsafe/840x500/smart/https://media.guiame.com.br/archives/2019/06/10/1447807278-banda-resgate.jpg"
         cardTitle="BANDA RESGATE, ROCK CRISTÃO"
         cardDescription="Conheça uma excelente banda no cenário musical do rock cristão, que dura a mais de 30 anos"
@@ -17,18 +15,21 @@
     
     <div class="articles_others">
         <app-small-card
-        [photoCover]="'https://folhagospel.com/wp-content/uploads/2017/08/banda_resgate_no_seu_quintal_capa_20171.jpg'"
-        [cardTitle]="'No seu quintal'"
+            id="1"
+            [photoCover]="'https://folhagospel.com/wp-content/uploads/2017/08/banda_resgate_no_seu_quintal_capa_20171.jpg'"
+            [cardTitle]="'No seu quintal'"
         ></app-small-card>
         
         <app-small-card
-                [photoCover]="'https://i.ytimg.com/vi/0WHjs-dnUjk/maxresdefault.jpg'"
-                [cardTitle]="'LP Novos rumos'"
+            id="2"
+            [photoCover]="'https://i.ytimg.com/vi/0WHjs-dnUjk/maxresdefault.jpg'"
+            [cardTitle]="'LP Novos rumos'"
         ></app-small-card>
         
         <app-small-card
-                [photoCover]="'https://1.bp.blogspot.com/-NUa7T2f5158/VX9MShm--jI/AAAAAAAAAkU/LAAyBbhj1NY/s1600/11350534_1081378601876863_8097973548218481117_n.jpg'"
-                [cardTitle]="'25 anos de rock and roll'"
+            id="3"
+            [photoCover]="'https://1.bp.blogspot.com/-NUa7T2f5158/VX9MShm--jI/AAAAAAAAAkU/LAAyBbhj1NY/s1600/11350534_1081378601876863_8097973548218481117_n.jpg'"
+            [cardTitle]="'25 anos de rock and roll'"
         ></app-small-card>
 
 
@@ -36,23 +37,37 @@
     
 </div>
 
-<h1>Mais velharias</h1>
+<h1>Mais musicas</h1>
 <hr>
 
 <div class="articles_container">
     <div class="articles_main">
         <app-big-card
+        id="engenheiros_do_hawaii"
         photoCover="http://i.ytimg.com/vi/t_5eat473sk/maxresdefault.jpg"
         cardTitle="ENGENHEIROS DO HAWAII, ROCK GAUCH"
-        cardDescription="UM DOS DINOSSAUROS DO ROCK BRASILEIRO QUE VIVE NA CARREIRA DE HUMBERTO GESSINGER"
+        cardDescription="DEIXEI O LINK QUEBRADO INTENCIONALMENTE, ISSO É TRATADO NO COMPONENT EM VEZ DE SER NA ROTA, a rota correta é: content/engenheiros_do_hawai"
         >
         </app-big-card>
     </div>
     
     <div class="articles_others">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
+        <app-small-card
+        id="4"
+        [photoCover]="'https://livrariascuritiba.vteximg.com.br/arquivos/ids/915256-525-525/av066136_1.jpg?v=636300417711130000'"
+        [cardTitle]="'Novos horizontes'"
+        ></app-small-card>
+        <app-small-card
+        id="5"
+        [photoCover]="'http://images.genius.com/9707e96c1423d154ab11ce64f47fef1e.1000x981x1.jpg'"
+        [cardTitle]="'Varias Variaveis'"
+        ></app-small-card>
+        <app-small-card
+        id="6"
+        [photoCover]="'http://1.bp.blogspot.com/-qUcqe0atHQk/VpQNdIv2wCI/AAAAAAAAADM/0xKZNejMGQA/s1600/engenheiros-do-hawaii-10000-destinos-ao-vivo-14083-MLB229942469_8933-F.jpg'"
+        [cardTitle]="'10.000 destinos'"
+        ></app-small-card>
     </div>
     
 </div>
+
